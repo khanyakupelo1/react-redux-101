@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import {useAppDispatch, useAppSelector} from './app/hooks'
 import {incremented, amountAdded} from './features/counter/counter-slice'
-import {RootState} from './app/store';
 
 function App() {
 	const count = useAppSelector((state) => state.counter.value)
